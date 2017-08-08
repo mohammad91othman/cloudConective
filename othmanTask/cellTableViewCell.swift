@@ -9,7 +9,11 @@
 import UIKit
 
 class cellTableViewCell: UITableViewCell {
+    @IBOutlet weak var typeA: UILabel!
 
+    @IBOutlet weak var statusImageView: UIButton!
+    @IBOutlet weak var type2: UILabel!
+    @IBOutlet weak var name: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
